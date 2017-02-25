@@ -47,7 +47,7 @@ namespace Assets
             }
             tmp.SetMessage(logString);
             tmp.SetStackTrace(stackTrace);
-            tmp.transform.SetParent(messagesParent);
+            tmp.transform.SetParent(messagesParent, false);
         }
     }
 }
